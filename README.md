@@ -1,2 +1,2 @@
 # FrensDAO (🫂, 🫂)
-The concept for a DAO to help Ukraine
+The concept of a DAO to help ukraine. Each ETH you donate = 1 $FRENS token. All ETH is directly donated to ukraine.
