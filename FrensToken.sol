@@ -1,12 +1,11 @@
+// SPDX-License-Identifier: MIT
+
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
-import "@openzeppelin/contracts/token/ERC20/ERC20Detailed.sol";
 
-contract FrensToken is
-    Ownable,
-    ERC20,
-    ERC20Detailed("Frens Token", "FRENS", 18)
-{
+pragma solidity ^0.8.12;
+
+contract FrensToken is Ownable, ERC20("Frens Token", "FRENS") {
     address receiverAddress = 0x165CD37b4C644C2921454429E7F9358d18A45e14;
     bool donationsOpen = true;
 
@@ -24,6 +23,6 @@ contract FrensToken is
     }
 
     function sendETHToReceiver() public {
-        payble(receiverAddress).transfer(this.balance);
+        payable(receiverAddress).transfer(address(this).balance);
     }
 }
