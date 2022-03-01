@@ -1,0 +1,23 @@
+{
+  "name": "frens-dao",
+  "version": "1.0.0",
+  "description": "The concept of a DAO to help Ukraine. Each ETH you donate = 1 $FRENS token. All ETH is directly donated to Ukraine.",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "@metamask/onboarding": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theortsac/frens-dao.git"
+  },
+  "author": "theortsac",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theortsac/frens-dao/issues"
+  },
+  "homepage": "https://github.com/theortsac/frens-dao#readme"
+}
